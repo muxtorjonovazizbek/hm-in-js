@@ -105,3 +105,22 @@
 
 // 42. Berilgan massivdagi barcha elementlarning eng katta umumiy bo'luvchisini toping.
 
+// function findGCD(arr) {
+   
+//     function gcd(a, b) {
+//         if (b === 0) {
+//             return a;
+//         }
+//         return gcd(b, a % b);
+//     }
+
+//     let result = arr[0];
+//     for (let i = 1; i < arr.length; i++) {
+//         result = gcd(result, arr[i]);
+//     }
+
+//     return result;
+// }
+
+// console.log(findGCD([24, 36, 48])); // 12
+// console.log(findGCD([7, 14, 21]));  // 7
